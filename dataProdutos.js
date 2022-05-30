@@ -5,7 +5,7 @@ const data = [
         preco: 7.00,
         secao: 'Hortifruit',
         categoria: 'fruta',
-        img: "./src/img/unsplash_IK2ep3jMnHA.png"
+        img: "unsplash_IK2ep3jMnHA.png"
     },
     {
         objeto: 'produto',
@@ -13,7 +13,7 @@ const data = [
         preco: 4.00,
         secao: 'Hortifruit',
         categoria: 'fruta',
-        img: './src/img/unsplash_0WW38q7lGZA.png'
+        img: 'unsplash_0WW38q7lGZA.png'
     },
     {
         objeto: 'produto',
@@ -21,7 +21,7 @@ const data = [
         preco: 3.00,
         secao: 'Laticínio',
         categoria: 'leite',
-        img: './src/img/unsplash_lK1Q5RyD6tc.png'
+        img: 'unsplash_lK1Q5RyD6tc.png'
     },
     { 
         objeto: 'produto',
@@ -29,7 +29,7 @@ const data = [
         preco: 5.00,
         secao: 'Panificadora',
         categoria: 'Pães',
-        img: './src/img/unsplash__0IzI-gEH4w.png'
+        img: 'unsplash__0IzI-gEH4w.png'
     },
     {
         objeto: 'produto',
@@ -37,7 +37,7 @@ const data = [
         preco: 7.00,
         secao: 'Laticínio',
         categoria: 'Leite',
-        img: './src/img/unsplash_rbJ9BY8bRRY.png'
+        img: 'unsplash_rbJ9BY8bRRY.png'
     },
     {
         objeto: 'produto',
@@ -45,7 +45,7 @@ const data = [
         preco: 10.00,
         secao: 'Panificadora',
         categoria: 'Pães',
-        img: './src/img/unsplash_vdx5hPQhXFk.png'  
+        img: 'unsplash_vdx5hPQhXFk.png'  
     },
     {
         objeto: 'produto',
@@ -53,7 +53,7 @@ const data = [
         preco: 4.00,
         secao: 'Hortifruit',
         categoria: 'fruta',
-        img: './src/img/unsplash_L1sES_uVrFI.png'  
+        img: 'unsplash_L1sES_uVrFI.png'  
     },
     {
         objeto: 'produto',
@@ -61,6 +61,6 @@ const data = [
         preco: 4.00,
         secao: 'Hortifruit',
         categoria: 'fruta',
-        img: './src/img/unsplash_wXuzS9xR49M.png'  
+        img: 'unsplash_wXuzS9xR49M.png'  
     },
 ]
