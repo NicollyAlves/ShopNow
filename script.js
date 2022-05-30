@@ -49,7 +49,7 @@ function pesquisa(){
 
    const img = document.createElement('img')
    img.classList.add("lupinha")
-   img.src = "./src/img/search_FILL0_wght400_GRAD0_opsz48.png"
+   img.src = "search_FILL0_wght400_GRAD0_opsz48.png"
    img.alt = "lupinha"
    
    header.append(containerBusca)
