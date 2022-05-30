@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Lista de Produtos</title>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <nav>
+            <h1 class="tituloPrincipal"><strong>Shop now</strong></h1>
+        </nav>
+        <div id="filters" class="filtersContainer">
+            
+            <button id="todos" class="estiloGeralBotoes estiloGeralBotoes--mostrarTodos">Todos Produtos</button>
+            <button id="hortifruit" class="estiloGeralBotoes estiloGeralBotoes--filtrarHortifruit">Hortifruit</button>
+            <button id="panificadora" class="estiloGeralBotoes estiloGeralBotoes--filtrarPanificadora">Panificadora</button>
+            <button id="laticinios" class="estiloGeralBotoes estiloGeralBotoes--filtrarLaticinios">Laticínios</button>
+
+           <!-- <div class="containerBuscaPorNome">
+                
+                <input id="input" type="text" placeholder="Pesquisar por" class="campoBuscaPorNome">
+                <button class="estiloGeralBotoes--botaoBuscaPorNome">
+                    <img class="lupinha" src="./src/img/search_FILL0_wght400_GRAD0_opsz48.png" alt="lupinha">
+                </button>
+
+            </div>-->
+        </div>
+        <!--<div class="caixaPreco">
+            <p class="pDescrição">Valor total dos produtos da sessão selecionada</p>
+            <p class="total">R$<span class="precoTotal">00.00</span></p>
+        </div>-->
+
+    </header>
+    
+    <main>
+        <div class="containerListaProdutos" id="listProdutos">
+            <ul id="listas" class="lista">
+                
+            </ul>
+        </div>
+
+    </main>
+    <script src="./src/js/dataProdutos.js"></script>
+    <script src="./src/js/script.js"></script>
+   
+</body>
+</html>
